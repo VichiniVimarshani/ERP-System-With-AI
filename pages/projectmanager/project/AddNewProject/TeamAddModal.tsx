@@ -203,7 +203,7 @@ const TeamAddModal: FC<ICustomerEditModalProps> = ({ id, isOpen, setIsOpen }) =>
     return (
         <Modal isOpen={isOpen} setIsOpen={setIsOpen} size='xl' titleId={id}>
             <ModalHeader setIsOpen={setIsOpen} className='p-4'>
-                <ModalTitle id="">{'New Team'}</ModalTitle>
+                <ModalTitle id="">{'New Project'}</ModalTitle>
             </ModalHeader>
             <ModalBody className='px-4'>
                 {/* Form fields for customer information */}

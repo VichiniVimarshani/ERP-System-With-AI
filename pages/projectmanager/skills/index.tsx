@@ -305,7 +305,6 @@ const Index: NextPage = () => {
 											<th>Email</th>
 											<th>Started Date</th>
 											<th>Special expertise</th>
-											<th>improvement</th>
 										</tr>
 									</thead>
 									<tbody>
@@ -394,8 +393,7 @@ const Index: NextPage = () => {
 															</small>
 														</div>
 													</td>
-													<td></td>
-													<td></td>
+													<td>{employee.lskills[0].skill}</td>
 												</tr>
 												<tr hidden={selectedRowIndex !== index}>
 													<td colSpan={5}>
