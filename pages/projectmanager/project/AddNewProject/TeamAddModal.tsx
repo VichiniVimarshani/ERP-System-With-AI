@@ -311,7 +311,7 @@ const TeamAddModal: FC<ICustomerEditModalProps> = ({ id, isOpen, setIsOpen }) =>
                                             <td>
                                                 <Select
                                                     ariaLabel='Default select example'
-                                                    placeholder='select time'
+                                                    placeholder='select Developer'
                                                     className='col-6'
                                                     value={row.employee}
                                                     onChange={(e: any) => {

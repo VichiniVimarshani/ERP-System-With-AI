@@ -187,7 +187,7 @@ const Index: NextPage = () => {
 			technologies: tskills[0].ratting,
 		};
 		axios
-			.post(`https://asia-south1-researcherp.cloudfunctions.net/learning-skills`, values)
+			.post(`https://asia-south1-research-434415.cloudfunctions.net/learning_skills`, values)
 			.then((res: any) => {
 				data.improveT = res.data;
 				axios

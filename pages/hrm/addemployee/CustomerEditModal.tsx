@@ -353,7 +353,7 @@ const CustomerEditModal: FC<ICustomerEditModalProps> = ({ id, isOpen, setIsOpen 
 	return (
 		<Modal isOpen={isOpen} setIsOpen={setIsOpen} size='xl' titleId={id}>
 			<ModalHeader setIsOpen={setIsOpen} className='p-4'>
-				<ModalTitle id="">{'New Customer'}</ModalTitle>
+				<ModalTitle id="">{'New Developer'}</ModalTitle>
 			</ModalHeader>
 			<ModalBody className='px-4'>
 				{selectedImage && <img src={selectedImage} className="mx-auto d-block mb-4" alt="Selected Profile Picture" style={{ width: '150px', height: '150px', borderRadius: 70 }} />}

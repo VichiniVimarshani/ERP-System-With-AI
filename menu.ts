@@ -86,7 +86,7 @@ export const developerPagesMenu = {
 
 			skills: {
 				id: 'softSkills',
-				text: 'Improve Soft Skills',
+				text: 'Improve skills',
 				path: 'developer/skills/improveSkills',
 				icon: 'AddTask',
 				subMenu: null,

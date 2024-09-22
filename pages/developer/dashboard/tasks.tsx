@@ -52,7 +52,7 @@ interface Project {
 const Index: NextPage = () => {
 
     const { darkModeStatus } = useDarkMode();
-    const [project, setProjects] = useState<Project[]>([]);
+    const [project, setProjects] = useState< any[]>([]);
     const [searchTerm, setSearchTerm] = useState("");
     const [id, setId] = useState("");
     const [selectedRowIndex, setSelectedRowIndex] = useState(null);

@@ -246,44 +246,44 @@ const CustomerEditModal: FC<ICustomerEditModalProps> = ({ id, isOpen, setIsOpen 
 				document?: string;
 				documentname?: string;
 			} = {};
-			if (!item.name) {
-				errors.name = 'Required';
-			}
-			if (!item.membershipDate) {
-				errors.membershipDate = 'Required';
-			}
-			if (!item.designation) {
-				errors.designation = 'Required';
-			}
-			if (!item.type) {
-				errors.type = 'Required';
-			}
-			if (!item.salary) {
-				errors.salary = 'Required';
-			}
-			if (!item.streetAddress) {
-				errors.streetAddress = 'Required';
-			}
-			if (!item.city) {
-				errors.city = 'Required';
-			}
-			if (!item.birthday) {
-				errors.birthday = 'Required';
-			}
-			if (!item.NIC) {
-				errors.NIC = 'Required';
-			}
-			if (!item.accountNumber) {
-				errors.accountNumber = 'Required';
-			}
-			if (!item.bankName) {
-				errors.bankName = 'Required';
-			}
-			if (!item.email) {
-				errors.email = 'Required';
-			} else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(item.email)) {
-				errors.email = 'Invalid email address';
-			}
+			// if (!item.name) {
+			// 	errors.name = 'Required';
+			// }
+			// if (!item.membershipDate) {
+			// 	errors.membershipDate = 'Required';
+			// }
+			// if (!item.designation) {
+			// 	errors.designation = 'Required';
+			// }
+			// if (!item.type) {
+			// 	errors.type = 'Required';
+			// }
+			// if (!item.salary) {
+			// 	errors.salary = 'Required';
+			// }
+			// if (!item.streetAddress) {
+			// 	errors.streetAddress = 'Required';
+			// }
+			// if (!item.city) {
+			// 	errors.city = 'Required';
+			// }
+			// if (!item.birthday) {
+			// 	errors.birthday = 'Required';
+			// }
+			// if (!item.NIC) {
+			// 	errors.NIC = 'Required';
+			// }
+			// if (!item.accountNumber) {
+			// 	errors.accountNumber = 'Required';
+			// }
+			// if (!item.bankName) {
+			// 	errors.bankName = 'Required';
+			// }
+			// if (!item.email) {
+			// 	errors.email = 'Required';
+			// } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i.test(item.email)) {
+			// 	errors.email = 'Invalid email address';
+			// }
 
 			
 			return errors;
